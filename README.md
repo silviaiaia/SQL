@@ -1,14 +1,130 @@
-### SQL notebook
+## SQL notebook
 
-#### select all data
-    SELECT *
-    FROM table_name;
+### Table of Contents
+1. [select all data](https://github.com/silviaiaia/SQL/edit/main/README.md#select-all-data)
+2. [select one column](https://github.com/silviaiaia/SQL/edit/main/README.md#select-one-column)
+3. [select distinct values](https://github.com/silviaiaia/SQL/edit/main/README.md#select-distinct-values)
 
-#### select one column
-    SELECT column_name
-    FROM table_name;
+### select all data
+```sql
+SELECT *
+FROM table_name;
+```
+- `;` means an end
 
-#### select top 5 rolls
-    SELECT column_name, column_name
-    FROM table_name
-    LIMIT 5;
+### select one column
+```sql
+SELECT column_name
+FROM table_name;
+```
+
+### select distinct values
+```sql
+SELECT DISTINCT column_name
+FROM table_name;
+```
+
+### skip top 10 rolls and show 5 rolls at one time
+```sql
+SELECT column1, column2
+FROM table_name
+LIMIT 5
+OFFSET 10;
+```
+
+### use `where` as a filter
+```sql
+SELECT column1, column2
+FROM table_name
+WHERE column1 = 'something';
+WHERE column1 <> 'something';
+```
+- `<>` means exclude <br/>
+- comparison operators : `>=` `<=` `OR` `AND` `BETWEEN AND` `IN` 
+
+#### `IN` can replace `OR`
+```sql
+column1 = 'something' OR column1 = 'someone'
+```
+can be simplified to 
+```sql
+column IN ('something', 'someone')
+```
+
+### select words start with...
+```sql
+SELECT column1, column2
+FROM table_name
+WHERE column1 LIKE 'A%';
+WHERE column1 LIKE 'A_';
+```
+- `A%` means all words start with A (eg. Apple, Ann) <br />
+- `A_` means all words start with A and have a length of 2 characters (eg. Ad, At)
+
+### set an order
+default order is ascending
+```sql
+SELECT column1, column2
+FROM table_name
+ORDER BY column1;
+```
+dscending order
+```sql
+SELECT column1, column2
+FROM table_name
+ORDER BY column1 DESC;
+```
+
+### set groups
+```sql
+SELECT column1, column2
+FROM table_name
+GROUP BY column1
+ORDER BY column2;
+```
+
+### calculate
+```sql
+SELECT AVG(column1), SUM(column1), MAX(column1), MIN(column1), COUNT(column1)
+FROM table_name;
+```
+
+### use `AS` to reset column names
+```sql
+SELECT column1 AS new_column1,
+       column2 AS new_column2
+FROM table_name;
+```
+```sql
+SELECT AVG(column1) AS Average,
+       MAX(column1) AS Maximum
+FROM table_name;
+```
+
+### when there are groups, use `HAVING` as a filter, not `WHERE`
+```sql
+SELECT column1, AVG(column2) AS Average
+FROM table_name
+GROUP BY column1
+HAVING Average = 'something'
+ORDER BY Average DESC;
+```
+
+### count rolls
+```sql
+SELECT COUNT(*)
+FROM table_name;
+```
+```sql
+SELECT COUNT(column1)
+FROM table_name;
+```
+- blank values will be ignored
+
+```sql
+```
+
+
+
+
+
