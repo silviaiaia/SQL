@@ -6,15 +6,14 @@
 3. [select distinct values](https://github.com/silviaiaia/SQL/edit/main/README.md#select-distinct-values)
 4. [skip top 10 rolls and show 5 rolls at one time](https://github.com/silviaiaia/SQL/edit/main/README.md#skip-top-10-rolls-and-show-5-rolls-at-one-time)
 5. [use where as a filter](https://github.com/silviaiaia/SQL/edit/main/README.md#use-where-as-a-filter)
-6. [IN can replace OR](https://github.com/silviaiaia/SQL/edit/main/README.md#in-can-replace-or)
-7. [select words start with...](https://github.com/silviaiaia/SQL/edit/main/README.md#select-words-start-with)
-8. [set an order](https://github.com/silviaiaia/SQL/edit/main/README.md#set-an-order)
-9. [set groups](https://github.com/silviaiaia/SQL/edit/main/README.md#set-gruops)
-10. [calculate](https://github.com/silviaiaia/SQL/edit/main/README.md#calculate)
-11. [use AS to reset column names](https://github.com/silviaiaia/SQL/edit/main/README.md#use-as-to-reset-column-names)
-12. [when there are groups, use HAVING as a filter, not WHERE](https://github.com/silviaiaia/SQL/edit/main/README.md#when-there-are-groups-use-having-as-a-filter-not-where)
-13. [count rolls](https://github.com/silviaiaia/SQL/edit/main/README.md#count-rolls)
-14. 
+6. [select words start with...](https://github.com/silviaiaia/SQL/edit/main/README.md#select-words-start-with)
+7. [set an order](https://github.com/silviaiaia/SQL/edit/main/README.md#set-an-order)
+8. [set groups](https://github.com/silviaiaia/SQL/edit/main/README.md#set-gruops)
+9. [calculate](https://github.com/silviaiaia/SQL/edit/main/README.md#calculate)
+10. [use AS to reset column names](https://github.com/silviaiaia/SQL/edit/main/README.md#use-as-to-reset-column-names)
+11. [when there are groups, use HAVING as a filter, not WHERE](https://github.com/silviaiaia/SQL/edit/main/README.md#when-there-are-groups-use-having-as-a-filter-not-where)
+12. [count rolls](https://github.com/silviaiaia/SQL/edit/main/README.md#count-rolls)
+13. 
 
 ### select all data
 ```sql
