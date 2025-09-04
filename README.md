@@ -12,8 +12,7 @@
 9. [calculate](https://github.com/silviaiaia/SQL/edit/main/README.md#calculate)
 10. [use AS to reset column names](https://github.com/silviaiaia/SQL/edit/main/README.md#use-as-to-reset-column-names)
 11. [when there are groups, use HAVING as a filter, not WHERE](https://github.com/silviaiaia/SQL/edit/main/README.md#when-there-are-groups-use-having-as-a-filter-not-where)
-12. [count rolls](https://github.com/silviaiaia/SQL/edit/main/README.md#count-rolls)
-13. 
+12. [count rolls](#count-rolls)
 
 ### select all data
 ```sql
