@@ -1,17 +1,17 @@
 ## SQL notebook
 
 ### Table of Contents
-1. [select all data](https://github.com/silviaiaia/SQL/edit/main/README.md#select-all-data)
-2. [select one column](https://github.com/silviaiaia/SQL/edit/main/README.md#select-one-column)
-3. [select distinct values](https://github.com/silviaiaia/SQL/edit/main/README.md#select-distinct-values)
-4. [skip top 10 rolls and show 5 rolls at one time](https://github.com/silviaiaia/SQL/edit/main/README.md#skip-top-10-rolls-and-show-5-rolls-at-one-time)
-5. [use where as a filter](https://github.com/silviaiaia/SQL/edit/main/README.md#use-where-as-a-filter)
-6. [select words start with...](https://github.com/silviaiaia/SQL/edit/main/README.md#select-words-start-with)
-7. [set an order](https://github.com/silviaiaia/SQL/edit/main/README.md#set-an-order)
-8. [set groups](https://github.com/silviaiaia/SQL/edit/main/README.md#set-gruops)
-9. [calculate](https://github.com/silviaiaia/SQL/edit/main/README.md#calculate)
-10. [use AS to reset column names](https://github.com/silviaiaia/SQL/edit/main/README.md#use-as-to-reset-column-names)
-11. [when there are groups, use HAVING as a filter, not WHERE](https://github.com/silviaiaia/SQL/edit/main/README.md#when-there-are-groups-use-having-as-a-filter-not-where)
+1. [select all data](#select-all-data)
+2. [select one column](#select-one-column)
+3. [select distinct values](#select-distinct-values)
+4. [skip top 10 rolls and show 5 rolls at one time](#skip-top-10-rolls-and-show-5-rolls-at-one-time)
+5. [use where as a filter](#use-where-as-a-filter)
+6. [select words start with...](#select-words-start-with)
+7. [set an order](#set-an-order)
+8. [set groups](#set-gruops)
+9. [calculate](#calculate)
+10. [use AS to reset column names](#use-as-to-reset-column-names)
+11. [when there are groups, use HAVING as a filter, not WHERE](#when-there-are-groups-use-having-as-a-filter-not-where)
 12. [count rolls](#count-rolls)
 
 ### select all data
