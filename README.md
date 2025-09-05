@@ -60,6 +60,10 @@ WHERE column1 <> 'something';
 > FROM employee
 > WHERE employee_id = 101;
 > ```
+>
+> | employee_id | name |
+> | :--- | :--- |
+> | 101 | Potato |
 
 #### `IN` can replace `OR`
 ```sql
