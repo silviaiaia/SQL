@@ -399,7 +399,7 @@ WHERE column3 = something;
 
 > ```sql
 > UPDATE years_of_service
-> SET employee_id = '497', on_board_date = '2025-09-07'
+> SET employee_id = 497, on_board_date = '2025-09-07'
 > WHERE name = 'Pistachio';
 > SELECT employee_id, name, on_board_date
 > FROM years_of_service
