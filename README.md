@@ -331,7 +331,7 @@ CREATE TABLE new_table_name (
 > ```
 >
 > | empolyee_id | name | on_board_date | years_of_service |
-> | :-- | :-- | :-- | :-- |
+> | :--- | :--- | :--- | :--- |
 > |  |  |  |  |
 > |  |  |  |  |
 
