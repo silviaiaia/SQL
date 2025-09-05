@@ -332,8 +332,8 @@ CREATE TABLE new_table_name (
 >
 > | empolyee_id | name | on_board_date | years_of_service |
 > | :--- | :--- | :--- | :--- |
-> |  |  |  |  |
-> |  |  |  |  |
+> | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+> | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
 - `name VARCHAR(100)` means storing text of up to 100 characters
 - `PRIMARY KEY` ensures that all values in `student_id` is unique and no null values
@@ -385,7 +385,7 @@ VALUES (
 > ```
 >
 > | empolyee_id | name | on_board_date | years_of_service |
-> | :-- | :-- | :-- | :-- |
+> | :--- | :--- | :--- | :--- |
 > | 101 | Potato | 2022-09-05 | 3 |
 > | 102 | Tomato | 2020-09-05 | 5 |
 
@@ -404,7 +404,8 @@ WHERE column3 = something;
 > SELECT employee_id, name, on_board_date
 > FROM years_of_service
 > WHERE name = 'Pistachio';
->
+> ```
+> 
 > | employee_id | name | on_board_date |
 > | :--- | :--- | :--- |
 > | 497 | Pistachio | 2025-09-07 |
@@ -419,7 +420,17 @@ WHERE column1 = something;
 > ```sql
 > DELETE FROM employee
 > WHERE employee_id = 104;
+> SELECT employee_id, name
+> FROM employee
+> LIMIT 4
 > ```
+>
+> | emplolyee_id | name |
+> | :--- | :--- |
+> | 101 | Potato |
+> | 102 | Tomato |
+> | 103 | Biscuit |
+> | 105 | Mango |
 
 
 
