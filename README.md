@@ -402,7 +402,7 @@ WHERE column3 = something;
 > WHERE name = 'Pistachio';
 >
 > | employee_id | name | on_board_date |
-> | :-- | :-- | :-- |
+> | :--- | :--- | :--- |
 > | 497 | Pistachio | 2025-09-07 |
 
 ### delete data
