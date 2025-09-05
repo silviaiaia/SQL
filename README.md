@@ -1,4 +1,4 @@
-## my SQL notebook
+## SQL notebook
 
 ### Table of Contents
 1. [select all data](#select-all-data)
